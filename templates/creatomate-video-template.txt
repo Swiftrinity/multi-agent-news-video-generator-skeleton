@@ -1,0 +1,471 @@
+# This json is used in the video rendering exercise.
+# Go to https://creatomate.com/ and create an account.
+# Create a new template.
+# Open the 'Source Editor'.
+# Copy the following json there.
+
+
+{
+  "output_format": "mp4",
+  "width": 720,
+  "height": 1280,
+  "frame_rate": "30 fps",
+  "snapshot_time": 3.39,
+  "snapshot_location": "start",
+  "emoji_style": "apple",
+  "elements": [
+    {
+      "id": "55acba57-2bda-4d84-99e2-5c7ca738ba0f",
+      "type": "audio",
+      "track": 1,
+      "time": 0,
+      "duration": null,
+      "source": "e64a00e9-24cf-41a2-abda-cafb08a5cb82",
+      "loop": true,
+      "audio_fade_out": 2
+    },
+    {
+      "id": "0a2d2c12-8116-4dc2-aa8e-b12acf7aa567",
+      "type": "video",
+      "track": 2,
+      "time": 0,
+      "duration": null,
+      "source": "a89cfe8c-e24e-4162-924e-3ba8746269a6",
+      "loop": true,
+      "clip": true,
+      "color_filter_value": 100,
+      "color_overlay": "rgba(0,0,0,0.33)",
+      "blur_radius": [
+        {
+          "time": 0,
+          "value": 98
+        },
+        {
+          "time": 1.1,
+          "value": 0
+        }
+      ],
+      "dynamic": true
+    },
+    {
+      "id": "54f16c97-bcb1-4cab-9c64-3b763bcc4b89",
+      "name": "Headline-1",
+      "type": "text",
+      "track": 4,
+      "time": 0.41,
+      "duration": 4.462,
+      "y": "47.4065%",
+      "width": "84.8827%",
+      "height": "50.4775%",
+      "x_alignment": "50%",
+      "y_alignment": "50%",
+      "text": "Headline #1",
+      "font_family": "Montserrat",
+      "font_weight": "800",
+      "line_height": "100%",
+      "fill_color": "#ffffff",
+      "shadow_color": "rgba(0,0,0,1)",
+      "shadow_blur": "0 vmin",
+      "shadow_y": "1.7 vmin",
+      "dynamic": true,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 1.93,
+          "easing": "quadratic-out",
+          "type": "text-slide",
+          "scope": "split-clip",
+          "split": "letter",
+          "direction": "up"
+        }
+      ]
+    },
+    {
+      "id": "10090a20-5cd8-4649-85e9-d244d6faecfb",
+      "name": "Story-1",
+      "type": "text",
+      "track": 4,
+      "time": 4.8722,
+      "duration": 10.208,
+      "y": "52.848%",
+      "width": "84.8827%",
+      "height": "61.3604%",
+      "x_alignment": "50%",
+      "y_alignment": "50%",
+      "text": "Story #1",
+      "font_family": "Montserrat",
+      "font_size_maximum": "99 vmin",
+      "line_height": "100%",
+      "fill_color": "#ffffff",
+      "shadow_color": "rgba(0,0,0,1)",
+      "shadow_blur": "0 vmin",
+      "shadow_y": "0.6 vmin",
+      "dynamic": true
+    },
+    {
+      "id": "8c10a776-b504-43d8-b022-baf294d05647",
+      "name": "Headline-2",
+      "type": "text",
+      "track": 4,
+      "time": 15.0803,
+      "duration": 4.9457,
+      "y": "47.4065%",
+      "width": "84.8827%",
+      "height": "50.4775%",
+      "x_alignment": "50%",
+      "y_alignment": "50%",
+      "text": "Headline #2",
+      "font_family": "Montserrat",
+      "font_weight": "800",
+      "line_height": "100%",
+      "fill_color": "#ffffff",
+      "shadow_color": "rgba(0,0,0,1)",
+      "shadow_blur": "0 vmin",
+      "shadow_y": "1.7 vmin",
+      "dynamic": true,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 1.93,
+          "easing": "quadratic-out",
+          "type": "text-slide",
+          "scope": "split-clip",
+          "split": "letter",
+          "direction": "up"
+        }
+      ]
+    },
+    {
+      "id": "1b03e7e2-8afd-40f3-ad5a-ba912bade068",
+      "name": "Story-2",
+      "type": "text",
+      "track": 4,
+      "duration": 10.0975,
+      "y": "52.848%",
+      "width": "84.8827%",
+      "height": "61.3604%",
+      "x_alignment": "50%",
+      "y_alignment": "50%",
+      "text": "Story #2",
+      "font_family": "Montserrat",
+      "font_size_maximum": "99 vmin",
+      "line_height": "100%",
+      "fill_color": "#ffffff",
+      "shadow_color": "rgba(0,0,0,1)",
+      "shadow_blur": "0 vmin",
+      "shadow_y": "0.6 vmin",
+      "dynamic": true
+    },
+    {
+      "id": "adf7666f-0b60-4901-a311-895054dae49d",
+      "name": "Headline-3",
+      "type": "text",
+      "track": 4,
+      "duration": 4.9512,
+      "y": "47.4065%",
+      "width": "84.8827%",
+      "height": "50.4775%",
+      "x_alignment": "50%",
+      "y_alignment": "50%",
+      "text": "Headline #3\n",
+      "font_family": "Montserrat",
+      "font_weight": "800",
+      "line_height": "100%",
+      "fill_color": "#ffffff",
+      "shadow_color": "rgba(0,0,0,1)",
+      "shadow_blur": "0 vmin",
+      "shadow_y": "1.7 vmin",
+      "dynamic": true,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 1,
+          "easing": "quadratic-out",
+          "type": "text-slide",
+          "scope": "split-clip",
+          "split": "letter",
+          "direction": "left"
+        }
+      ]
+    },
+    {
+      "id": "4cc53e19-758d-4090-bb93-c40a49b91c24",
+      "name": "Story-3",
+      "type": "text",
+      "track": 4,
+      "duration": 9.8968,
+      "y": "52.848%",
+      "width": "84.8827%",
+      "height": "61.3604%",
+      "x_alignment": "50%",
+      "y_alignment": "50%",
+      "text": "Story #3",
+      "font_family": "Montserrat",
+      "font_size_maximum": "99 vmin",
+      "line_height": "100%",
+      "fill_color": "#ffffff",
+      "shadow_color": "rgba(0,0,0,1)",
+      "shadow_blur": "0 vmin",
+      "shadow_y": "0.6 vmin",
+      "dynamic": true
+    },
+    {
+      "id": "030ed570-e6ee-4e5f-a005-f5b61d3d855f",
+      "name": "Image-XD8",
+      "type": "image",
+      "track": 4,
+      "duration": 3.2282,
+      "width": "90%",
+      "height": "90%",
+      "source": "ca3550e2-0ddc-4801-aebb-5563d54728a2",
+      "fit": "contain",
+      "dynamic": true
+    },
+    {
+      "id": "19b35935-9ff1-4f52-882e-f4527aa2e0d9",
+      "type": "shape",
+      "track": 5,
+      "time": 4.872,
+      "duration": 10.208,
+      "y": [
+        {
+          "time": 1.667,
+          "value": "90.88%"
+        },
+        {
+          "time": 9.068,
+          "value": "90.88%"
+        },
+        {
+          "time": 9.073,
+          "value": "80.8814%"
+        },
+        {
+          "time": 9.083,
+          "value": "90.36%"
+        },
+        {
+          "time": 9.097,
+          "value": "90.78%"
+        },
+        {
+          "time": 9.593,
+          "value": "52.848%"
+        },
+        {
+          "time": 10.073,
+          "value": "22.2401%"
+        }
+      ],
+      "width": "84.8827%",
+      "height": [
+        {
+          "time": 9.073,
+          "value": "5.2936%"
+        },
+        {
+          "time": 9.593,
+          "value": "61.3604%"
+        },
+        {
+          "time": 10.073,
+          "value": "0%"
+        }
+      ],
+      "x_anchor": "50%",
+      "y_anchor": "50%",
+      "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
+      "fill_color": "rgba(255,107,107,1)",
+      "shadow_color": "rgba(0,0,0,1)",
+      "shadow_blur": "0 vmin",
+      "shadow_y": "1.7 vmin",
+      "dynamic": true,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 9.068,
+          "easing": "linear",
+          "type": "wipe",
+          "fade": false,
+          "x_anchor": "0%"
+        }
+      ]
+    },
+    {
+      "id": "742bb03d-e8e0-4a61-adbe-ea77257f6b6a",
+      "name": "Title",
+      "type": "text",
+      "track": 6,
+      "time": 0,
+      "y": "11.7536%",
+      "width": "84.8827%",
+      "height": "10.1281%",
+      "x_alignment": "50%",
+      "y_alignment": "50%",
+      "text": "Top news of the day",
+      "font_family": "Montserrat",
+      "font_weight": "800",
+      "line_height": "114%",
+      "background_color": "#000000",
+      "background_x_padding": "67%",
+      "fill_color": "#ffffff",
+      "clip": true,
+      "dynamic": true,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 0.57,
+          "easing": "quadratic-out",
+          "type": "text-slide",
+          "scope": "element",
+          "split": "line",
+          "distance": "200%",
+          "direction": "up",
+          "background_effect": "sliding"
+        }
+      ]
+    },
+    {
+      "id": "2f6a463a-0725-4d62-a1ee-4a91d64a8867",
+      "name": "Shape-FDH",
+      "type": "shape",
+      "track": 7,
+      "time": 20,
+      "duration": 10.208,
+      "y": [
+        {
+          "time": 1.667,
+          "value": "90.88%"
+        },
+        {
+          "time": 9.068,
+          "value": "90.88%"
+        },
+        {
+          "time": 9.073,
+          "value": "80.8814%"
+        },
+        {
+          "time": 9.083,
+          "value": "90.36%"
+        },
+        {
+          "time": 9.097,
+          "value": "90.78%"
+        },
+        {
+          "time": 9.593,
+          "value": "52.848%"
+        },
+        {
+          "time": 10.073,
+          "value": "22.2401%"
+        }
+      ],
+      "width": "84.8827%",
+      "height": [
+        {
+          "time": 9.073,
+          "value": "5.2936%"
+        },
+        {
+          "time": 9.593,
+          "value": "61.3604%"
+        },
+        {
+          "time": 10.073,
+          "value": "0%"
+        }
+      ],
+      "x_anchor": "50%",
+      "y_anchor": "50%",
+      "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
+      "fill_color": "rgba(255,107,107,1)",
+      "shadow_color": "rgba(0,0,0,1)",
+      "shadow_blur": "0 vmin",
+      "shadow_y": "1.7 vmin",
+      "dynamic": true,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 9.068,
+          "easing": "linear",
+          "type": "wipe",
+          "fade": false,
+          "x_anchor": "0%"
+        }
+      ]
+    },
+    {
+      "id": "d0fd741f-2426-4adf-ad47-a8d2e5c90868",
+      "name": "Shape-KHZ",
+      "type": "shape",
+      "track": 8,
+      "time": 35,
+      "duration": 10.208,
+      "y": [
+        {
+          "time": 1.667,
+          "value": "90.88%"
+        },
+        {
+          "time": 9.068,
+          "value": "90.88%"
+        },
+        {
+          "time": 9.073,
+          "value": "80.8814%"
+        },
+        {
+          "time": 9.083,
+          "value": "90.36%"
+        },
+        {
+          "time": 9.097,
+          "value": "90.78%"
+        },
+        {
+          "time": 9.593,
+          "value": "52.848%"
+        },
+        {
+          "time": 10.073,
+          "value": "22.2401%"
+        }
+      ],
+      "width": "84.8827%",
+      "height": [
+        {
+          "time": 9.073,
+          "value": "5.2936%"
+        },
+        {
+          "time": 9.593,
+          "value": "61.3604%"
+        },
+        {
+          "time": 10.073,
+          "value": "0%"
+        }
+      ],
+      "x_anchor": "50%",
+      "y_anchor": "50%",
+      "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z",
+      "fill_color": "rgba(255,107,107,1)",
+      "shadow_color": "rgba(0,0,0,1)",
+      "shadow_blur": "0 vmin",
+      "shadow_y": "1.7 vmin",
+      "dynamic": true,
+      "animations": [
+        {
+          "time": 0,
+          "duration": 9.068,
+          "easing": "linear",
+          "type": "wipe",
+          "fade": false,
+          "x_anchor": "0%"
+        }
+      ]
+    }
+  ]
+}

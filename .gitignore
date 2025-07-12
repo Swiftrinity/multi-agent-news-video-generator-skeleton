@@ -1,0 +1,16 @@
+# Ignore run outputs
+runs/
+*.mp4
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Ignore IDE settings
+.idea/
+
+# Ignore Python virtual environments
+venv/
