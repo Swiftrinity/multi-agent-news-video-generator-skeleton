@@ -15,4 +15,7 @@ def summarize(article):
 
 
 def run(input_path: str, output_path: str):
-
+    """
+    TODO: process the input to summerize
+    and write them to the outputfile
+    """

@@ -25,4 +25,8 @@ def extract_article(url):
 
 
 def run(output_path):
-
+    """
+    TODO: Implement API call using the API key defined in .env file
+    and get top news stories using NewsAPI.
+    and extract the articles and write to file
+    """
