@@ -15,4 +15,7 @@ def generate_youtube_short_script_from_news(title, content):
 
 
 def run(input_path: str, output_path: str):
-
+    """
+     TODO: process the input to video info
+     and write them to the outputfile
+     """
