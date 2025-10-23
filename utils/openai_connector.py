@@ -1,10 +1,10 @@
-import openai
+from openai import OpenAI
 import os
 from dotenv import load_dotenv
 from loguru import logger
 
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 
 def call_ai(system_prompt: str, user_prompt: str, max_tokens: int = 150, temperature: float = 0.3):
     """
@@ -13,3 +13,8 @@ def call_ai(system_prompt: str, user_prompt: str, max_tokens: int = 150, tempera
     """
 
 
+if __name__ == "__main__":
+    """
+        TODO: Use this for standalone testing.
+
+    """
