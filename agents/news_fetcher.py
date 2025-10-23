@@ -25,4 +25,6 @@ def extract_article(url):
 
 
 def run(output_path):
-
+    """
+        TODO: Implement the function 
+    """
