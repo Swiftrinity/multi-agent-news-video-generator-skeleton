@@ -15,4 +15,6 @@ def summarize(article):
 
 
 def run(input_path: str, output_path: str):
-
+    """
+        TODO: Implement the function 
+    """
